@@ -1,3 +1,27 @@
+The source data was collected from the UCI Machine Learning Repository to complete an assignment for a Coursera course named Getting and Cleaning Data instructed by Jeff Leek. The assignment involved working with the data set and producing tidy data representation of the source data. Below is a list of the operations done to achieve the outputs.
+
+This course is part of the Data Science Track.
+
+Steps Performed:
+
+	point to working directory where files have been downloaded to
+	Include the data.table library
+	Load the three train .txt files with column names
+	Load the three test .txt files with column names
+	load the features.txt
+	load activites with column names
+	rename the activity Name for easier readablity
+	combin the y_data, x_data and the subject data
+	transpose(reshape) the features row names to column names, to be used as heading
+	determine which columns are for mean() and std()
+	isolate the required columns
+	create and write the resulting tidy data
+	create a data.table for the calculated columns and group by subject and the activity description
+	write the calculated table
+
+
+
+
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
